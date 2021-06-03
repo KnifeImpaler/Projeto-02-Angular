@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta BIC",
+            "price": 2.79
+        },
+        {
+            "id": 2,
+            "name": "Caneta Pilot",
+            "price": 2.69
+        },
+        {
+            "id": 3,
+            "name": "Caneta Compact",
+            "price": 2.59
+        }
+    ]
+}
