@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field'; 
+import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -17,6 +19,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
