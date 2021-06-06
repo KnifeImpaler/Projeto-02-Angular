@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    background-color: #3F51B6;
+}
+
+.mat-row:hover {
+    background-color: #707BB8;
+}
+
+
+.edit > i {
+    margin-right: 10px;
+    color: #FFCC00;
+}
+
+.delete > i {
+    margin-left: 10px;
+    color: #B41832;
+}
+
+.edit > i:hover {
+    color: #B3A15B;
+}
+
+.delete > i:hover {
+    color: #DB566C;
+}

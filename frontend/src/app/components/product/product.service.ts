@@ -10,6 +10,8 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   baseUrl = "http://localhost:3001/products"
+  sort: any;
+  paginator: any;
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
@@ -23,6 +25,10 @@ export class ProductService {
 
     create(product: Product): Observable<Product> {
       return this.http.post<Product>(this.baseUrl, product)
+    }
+
+    read(): Observable<Product[]> {
+      return this.http.get<Product[]>(this.baseUrl)
     }
   
 }
