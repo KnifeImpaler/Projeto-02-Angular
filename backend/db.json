@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC",
-      "price": 2.79
+      "price": "2.69"
     },
     {
       "id": 2,
@@ -17,8 +17,13 @@
     },
     {
       "name": "Régua",
-      "price": "99.99",
+      "price": "3.5",
       "id": 4
+    },
+    {
+      "name": "Caderno 10 matérias",
+      "price": "25.60",
+      "id": 5
     }
   ]
 }

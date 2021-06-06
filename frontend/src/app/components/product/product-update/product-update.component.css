@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.save{
+    margin: 10px 5px 0px 0px ;
+    background-color: #3F51B6;
+}
+.save:hover{
+    background-color: #707BB8;
+}
+.cancel{
+    margin: 10px 5px 0px 0px ;
+    background-color: #B41832;
+}
+.cancel:hover{
+    background-color: #DB566C;
+}
