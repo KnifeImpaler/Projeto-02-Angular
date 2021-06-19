@@ -1,8 +1,6 @@
 table {
     width: 100%;
-    background-color: #3F51B6;
 }
-
 .mat-row:hover {
     background-color: #707BB8;
 }
@@ -10,7 +8,7 @@ table {
 
 .edit > i {
     margin-right: 10px;
-    color: #FFCC00;
+    color: #E09627;
 }
 
 .delete > i {
@@ -19,7 +17,7 @@ table {
 }
 
 .edit > i:hover {
-    color: #B3A15B;
+    color: #EEC383;
 }
 
 .delete > i:hover {

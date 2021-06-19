@@ -24,6 +24,26 @@
       "name": "Caderno 10 matérias",
       "price": "25.60",
       "id": 5
+    },
+    {
+      "name": "Borracha Mercur",
+      "price": "2.87",
+      "id": 6
+    },
+    {
+      "name": "Apontador",
+      "price": "2.50",
+      "id": 7
+    },
+    {
+      "name": "Lapiseira",
+      "price": "8.58",
+      "id": 8
+    },
+    {
+      "name": "Lápis de cor Faber Castell",
+      "price": "21.54",
+      "id": 9
     }
   ]
 }

@@ -3,17 +3,17 @@ form {
     flex-direction: column;
 }
 
-.update{
-    margin: 10px 5px 0px 0px ;
-    background-color: #E09627;
-}
-.update:hover{
-    background-color: #EEC383;
-}
-.cancel{
+.delete{
     margin: 10px 5px 0px 0px ;
     background-color: #B41832;
 }
-.cancel:hover{
+.delete:hover{
     background-color: #DB566C;
+}
+.cancel{
+    margin: 10px 5px 0px 0px ;
+    background-color: #E09627;
+}
+.cancel:hover{
+    background-color: #EEC383;
 }
